@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git branch: 'master', url : 'https://github.com/salagarsprabu/ForexPay.git'
+        git branch: 'master', url : 'https://Gopikd0508@bitbucket.org/Gopikd0508/https-github.com-gopikrishna-nov20-forexpay.git.git'
       }
     }
     stage('Build and Deploy') {
